@@ -44,7 +44,13 @@
             <div class="header-main container">
 	            <div class="row">
 	                <h1 class="logo col-md-4 col-12">
-	                    <a href="index.html"><img id="logo" src="assets/images/logo.png" alt="Logo"></a>
+	                    <a href="index.html"><picture>
+                            <source media="(min-width: 900px)" srcset="assets/images/logo.webp" type="image/webp">
+                            <source media="(min-width: 200px)" srcset="assets/images/logo-200.webp" type="image/webp">
+                            <source media="(min-width: 100px)" srcset="assets/images/logo-100.webp" type="image/webp">
+                            <source media="(min-width: 50px)" srcset="assets/images/logo-50.webp" type="image/webp">
+                            <img id="logo" src="assets/images/logo-100.jpg" alt="Logo" width="200" height="100" loading="lazy">
+                        </picture></a>
 	                </h1>           
 	                <div class="info col-md-8 col-12">
 	                    <ul class="menu-top float-right d-none d-md-block">
@@ -129,7 +135,11 @@
                         <div class="team-wrapper col-lg-8 col-md-7 col-12">        
                             <div class="row page-row" >
                                 <figure class="thumb col-lg-3 col-4">
-                                    <img class="img-fluid rounded" src="assets/images/team/team-1.jpg" alt=""/>
+                                    <picture>
+                                        <source media="(min-width: 170px)" srcset="assets/images/team/team-1.webp" type="image/webp">
+                                        <source media="(min-width: 50px)" srcset="assets/images/team/team-1-80.webp" type="image/webp">
+                                        <img class="img-fluid rounded" src="assets/images/team/team-1-80.jpg" alt="" width="80" height="99" loading="lazy" decoding="async">
+                                    </picture>
                                 </figure>
                                 <div class="details col-lg-9 col-8">
                                     <h3 class="title">Principal M.A. Sattar</h3>
@@ -139,7 +149,11 @@
                             </div>
                             <div class="row page-row" >
                                 <figure class="thumb col-lg-3 col-4">
-                                    <img class="img-fluid rounded" src="assets/images/team/team-2.jpg" alt=""/>
+                                    <picture>
+                                        <source media="(min-width: 170px)" srcset="assets/images/team/team-2.webp" type="image/webp">
+                                        <source media="(min-width: 50px)" srcset="assets/images/team/team-2-80.webp" type="image/webp">
+                                        <img class="img-fluid rounded" src="assets/images/team/team-2-80.jpg" alt="" width="80" height="99" loading="lazy" decoding="async">
+                                    </picture>
                                 </figure>
                                 <div class="details col-lg-9 col-8">
                                     <h3 class="title">Prof. Md Mostafizur Rhaman</h3>
@@ -149,7 +163,11 @@
                             </div>
                             <div class="row page-row" >
                                 <figure class="thumb col-lg-3 col-4">
-                                    <img class="img-fluid rounded" src="assets/images/team/team-3.jpg" alt=""/>
+                                    <picture>
+                                        <source media="(min-width: 170px)" srcset="assets/images/team/team-3.webp" type="image/webp">
+                                        <source media="(min-width: 50px)" srcset="assets/images/team/team-3-80.webp" type="image/webp">
+                                        <img class="img-fluid rounded" src="assets/images/team/team-3-80.jpg" alt="" width="80" height="99" loading="lazy" decoding="async">
+                                    </picture>
                                 </figure>
                                 <div class="details col-lg-9 col-8">
                                     <h3 class="title">Mohammad Shahjahan</h3>

@@ -44,7 +44,13 @@
             <div class="header-main container">
 	            <div class="row">
 	                <h1 class="logo col-md-4 col-12">
-	                    <a href="index.html"><img id="logo" src="assets/images/logo.png" alt="Logo"></a>
+	                    <a href="index.html"><picture>
+                            <source media="(min-width: 900px)" srcset="assets/images/logo.webp" type="image/webp">
+                            <source media="(min-width: 200px)" srcset="assets/images/logo-200.webp" type="image/webp">
+                            <source media="(min-width: 100px)" srcset="assets/images/logo-100.webp" type="image/webp">
+                            <source media="(min-width: 50px)" srcset="assets/images/logo-50.webp" type="image/webp">
+                            <img id="logo" src="assets/images/logo-100.jpg" alt="Logo" width="200" height="100" loading="lazy">
+                        </picture></a>
 	                </h1>           
 	                <div class="info col-md-8 col-12">
 	                    <ul class="menu-top float-right d-none d-md-block">
@@ -117,7 +123,12 @@
             <div id="promo-slider" class="slider flexslider rounded">
                 <ul class="slides">
                     <li>
-                        <img src="assets/images/slides/slide-1.jpg"  alt="" />
+                        <picture>
+                            <source media="(min-width: 1000px)" srcset="assets/images/slides/slide-1.webp" type="image/webp">
+                            <source media="(min-width: 550px)" srcset="assets/images/slides/slide-1-600.webp" type="image/webp">
+                            <source media="(min-width: 150px)" srcset="assets/images/slides/slide-1-200.webp" type="image/webp">
+                            <img decoding="async" loading="lazy" src="assets/images/slides/slide-1-600.jpg" alt="">
+                        </picture>
                         <p class="flex-caption">
                             <span class="main rounded" >Our Managements</span>
                             <br />
@@ -125,7 +136,12 @@
                         </p>
                     </li>
                     <li>
-                        <img src="assets/images/slides/slide-2.jpg"  alt="" />
+                        <picture>
+                            <source media="(min-width: 1000px)" srcset="assets/images/slides/slide-2.webp" type="image/webp">
+                            <source media="(min-width: 550px)" srcset="assets/images/slides/slide-2-600.webp" type="image/webp">
+                            <source media="(min-width: 150px)" srcset="assets/images/slides/slide-2-200.webp" type="image/webp">
+                            <img decoding="async" loading="lazy" src="assets/images/slides/slide-2-600.jpg" alt="">
+                        </picture>
                         <p class="flex-caption">
                             <span class="main rounded" >Placement Conference</span>
                             <br />
@@ -133,7 +149,12 @@
                         </p>
                     </li>
                     <li>
-                        <img src="assets/images/slides/slide-3.jpg"  alt="" />
+                        <picture>
+                            <source media="(min-width: 1000px)" srcset="assets/images/slides/slide-3.webp" type="image/webp">
+                            <source media="(min-width: 550px)" srcset="assets/images/slides/slide-3-600.webp" type="image/webp">
+                            <source media="(min-width: 150px)" srcset="assets/images/slides/slide-3-200.webp" type="image/webp">
+                            <img decoding="async" loading="lazy" src="assets/images/slides/slide-1-600.jpg" alt="">
+                        </picture>
                         <p class="flex-caption">
                             <span class="main rounded" >Our Computer Lab</span>
                             <br />
@@ -141,7 +162,12 @@
                         </p>
                     </li>
                     <li>
-                        <img src="assets/images/slides/slide-4.jpg"  alt="" />
+                        <picture>
+                            <source media="(min-width: 1000px)" srcset="assets/images/slides/slide-4.webp" type="image/webp">
+                            <source media="(min-width: 550px)" srcset="assets/images/slides/slide-4-600.webp" type="image/webp">
+                            <source media="(min-width: 150px)" srcset="assets/images/slides/slide-4-200.webp" type="image/webp">
+                            <img decoding="async" loading="lazy" src="assets/images/slides/slide-4-600.jpg" alt="">
+                        </picture>
                         <p class="flex-caption">
                             <span class="main rounded" >Our Main Campus</span>
                             <br />
@@ -179,7 +205,11 @@
 	                            <div class="row">
 	                                <div class="col-lg-4 col-12 news-item">
 	                                    <h2 class="title"><a href="news.html">Award Giving Ceremony</a></h2>
-	                                    <img class="thumb rounded-pill" src="assets/images/news/news-thumb-1.jpg"  alt="" />
+                                        <picture>
+                                            <source media="(min-width: 100px)" srcset="assets/images/news/news-thumb-1.webp" type="image/webp">
+                                            <source media="(min-width: 50px)" srcset="assets/images/news/news-thumb-1-50.webp" type="image/webp">
+                                            <img class="thumb rounded-pill" src="assets/images/news/news-thumb-1-50.jpg" alt="" loading="lazy" decoding="async" style="max-width: 100%; height: auto;">
+                                        </picture>
 	                                    <p>Suspendisse purus felis, porttitor quis sollicitudin sit amet, elementum et tortor. Praesent lacinia magna in malesuada vestibulum. Pellentesque urna libero.</p>
 	                                    <a class="read-more" href="news-single.html">Read more<i class="fas fa-chevron-right"></i></a>                
 	                                </div>
@@ -187,14 +217,22 @@
 	                                    <h2 class="title"><a href="news.html">RAG Day (Batch 201-19)</a></h2>
 	                                    <p>Nam feugiat erat vel neque mollis, non vulputate erat aliquet. Maecenas ac leo porttitor, semper risus condimentum, cursus elit. Vivamus vitae libero tellus.</p>
 	                                    <a class="read-more" href="news.html">Read more<i class="fas fa-chevron-right"></i></a>
-	                                    <img class="thumb rounded-pill" src="assets/images/news/news-thumb-2.jpg"  alt="" />
-	                                </div>
+                                        <picture>
+                                            <source media="(min-width: 99px)" srcset="assets/images/news/news-thumb-2.webp" type="image/webp">
+                                            <source media="(min-width: 49px)" srcset="assets/images/news/news-thumb-2-50.webp" type="image/webp">
+                                            <img class="thumb rounded-pill" src="assets/images/news/news-thumb-2-50.jpg" alt="" loading="lazy" decoding="async" style="max-width: 100%; height: auto;">
+                                        </picture>
+                                    </div>
 	                                <div class="col-lg-4 col-12 news-item">
 	                                    <h2 class="title"><a href="news.html">Tribute to Principal M.A. Sattar</a></h2>
 	                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum mauris eget sapien consectetur pellentesque. Proin elementum tristique euismod. </p>
 	                                    <a class="read-more" href="news.html">Read more<i class="fas fa-chevron-right"></i></a>
-	                                    <img class="thumb rounded-pill" src="assets/images/news/news-thumb-3.jpg"  alt="" />
-	                                </div>
+                                        <picture>
+                                            <source media="(min-width: 99px)" srcset="assets/images/news/news-thumb-3.webp" type="image/webp">
+                                            <source media="(min-width: 49px)" srcset="assets/images/news/news-thumb-3-50.webp" type="image/webp">
+                                            <img class="thumb rounded-pill" src="assets/images/news/news-thumb-3-50.jpg" alt="" loading="lazy" decoding="async" style="max-width: 100%; height: auto;">
+                                        </picture>
+                                    </div>
 	                            </div>
                             </div>
                             <!--item-->
@@ -202,7 +240,11 @@
 	                            <div class="row">
 	                                <div class="col-lg-4 col-12 news-item">
 	                                    <h2 class="title"><a href="news.html">Principal M. A. Sattar</a></h2>
-	                                    <img class="thumb rounded-pill" src="assets/images/news/news-thumb-4.jpg"  alt="" />
+                                        <picture>
+                                            <source media="(min-width: 99px)" srcset="assets/images/news/news-thumb-4.webp" type="image/webp">
+                                            <source media="(min-width: 49px)" srcset="assets/images/news/news-thumb-4-50.webp" type="image/webp">
+                                            <img class="thumb rounded-pill" src="assets/images/news/news-thumb-4-50.jpg" alt="" loading="lazy" decoding="async" style="max-width: 100%; height: auto;">
+                                        </picture>
 	                                    <p>Suspendisse purus felis, porttitor quis sollicitudin sit amet, elementum et tortor. Praesent lacinia magna in malesuada vestibulum. Pellentesque urna libero.</p>
 	                                    <a class="read-more" href="news.html">Read more<i class="fas fa-chevron-right"></i></a>                
 	                                </div>
@@ -210,13 +252,21 @@
 	                                    <h2 class="title"><a href="news.html">Conference</a></h2>
 	                                    <p>Nam feugiat erat vel neque mollis, non vulputate erat aliquet. Maecenas ac leo porttitor, semper risus condimentum, cursus elit. Vivamus vitae libero tellus.</p>
 	                                    <a class="read-more" href="news.html">Read more<i class="fas fa-chevron-right"></i></a>
-	                                    <img class="thumb rounded-pill" src="assets/images/news/news-thumb-5.jpg"  alt="" />
+                                        <picture>
+                                            <source media="(min-width: 99px)" srcset="assets/images/news/news-thumb-5.webp" type="image/webp">
+                                            <source media="(min-width: 49px)" srcset="assets/images/news/news-thumb-5-50.webp" type="image/webp">
+                                            <img class="thumb rounded-pill" src="assets/images/news/news-thumb-5-50.jpg" alt="" loading="lazy" decoding="async" style="max-width: 100%; height: auto;">
+                                        </picture>
 	                                </div>
 	                                <div class="col-lg-4 col-12 news-item">
 	                                    <h2 class="title"><a href="news.html">Student Practical Training</a></h2>
 	                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam bibendum mauris eget sapien consectetur pellentesque. Proin elementum tristique euismod. </p>
 	                                    <a class="read-more" href="news.html">Read more<i class="fas fa-chevron-right"></i></a>
-	                                    <img class="thumb rounded-pill" src="assets/images/news/news-thumb-6.jpg"  alt="" />
+                                        <picture>
+                                            <source media="(min-width: 99px)" srcset="assets/images/news/news-thumb-6.webp" type="image/webp">
+                                            <source media="(min-width: 49px)" srcset="assets/images/news/news-thumb-6-50.webp" type="image/webp">
+                                            <img class="thumb rounded-pill" src="assets/images/news/news-thumb-6-50.jpg" alt="" loading="lazy" decoding="async"style="max-width: 100%; height: auto;">
+                                        </picture>
 	                                </div>
                                     <!--news-item-->
 	                            </div>
@@ -362,7 +412,12 @@
                                         </blockquote>                
                                         <div class="source">
                                             <p class="people"><span class="name">Shahin Hossain</span></p>
-                                            <img class="profile" src="assets/images/testimonials/testimonial-1.jpg" alt="" />
+                                            <picture>
+                                                <source media="(min-width: 600px)" srcset="assets/images/testimonials/testimonial-1.webp" type="image/webp">
+                                                <source media="(min-width: 200px)" srcset="assets/images/testimonials/testimonial-1-200.webp" type="image/webp">
+                                                <source media="(min-width: 100px)" srcset="assets/images/testimonials/testimonial-1-100.webp" type="image/webp">
+                                                <img class="profile" src="assets/images/testimonials/testimonial-1-200.jpg" alt="" loading="lazy" decoding="async">
+                                            </picture>
                                         </div>                               
                                     </div>
                                     <div class="carousel-item item">
@@ -372,7 +427,12 @@
                                         </blockquote>
                                         <div class="source">
                                             <p class="people"><span class="name">Harunur Rashid Noyon</span></p>
-                                            <img class="profile" src="assets/images/testimonials/testimonial-2.jpg"  alt="" />
+                                            <picture>
+                                                <source media="(min-width: 2000px)" srcset="assets/images/testimonials/testimonial-2.webp" type="image/webp">
+                                                <source media="(min-width: 600px)" srcset="assets/images/testimonials/testimonial-2-600.webp" type="image/webp">
+                                                <source media="(min-width: 100px)" srcset="assets/images/testimonials/testimonial-2-100.webp" type="image/webp">
+                                                <img class="profile" src="assets/images/testimonials/testimonial-2-600.jpg" alt="" loading="lazy" decoding="async">
+                                            </picture>
                                         </div>                 
                                     </div>
                                     <div class="carousel-item item">
@@ -382,7 +442,13 @@
                                         </blockquote>
                                         <div class="source">
                                             <p class="people"><span class="name">Iqbal Hossain</span></p>
-                                            <img class="profile" src="assets/images/testimonials/testimonial-3.jpg"  alt="" />
+                                            <picture>
+                                                <source media="(min-width: 900px)" srcset="assets/images/testimonials/testimonial-3.webp" type="image/webp">
+                                                <source media="(min-width: 600px)" srcset="assets/images/testimonials/testimonial-3-600.webp" type="image/webp">
+                                                <source media="(min-width: 100px)" srcset="assets/images/testimonials/testimonial-3-100.webp" type="image/webp">
+                                                <!-- Utilisez la source JPEG pour les navigateurs ne prenant pas en charge WebP -->
+                                                <img class="profile" src="assets/images/testimonials/testimonial-3-600.jpg" alt="" loading="lazy" decoding="async">
+                                            </picture>
                                         </div>                 
                                     </div>
                                 </div>
@@ -406,7 +472,13 @@
                             <div class="carousel-item item active">
                                 <div class="source" style="margin-left: 90px;">
                                     <p class="people"><span class="name">Shyamoli Ideal Engineering College, Lakshmipur.</span><br /><span class="title">Mandari, Sadar- Lakshmipur</span></p>
-                                    <img class="img-fluid rounded" src="assets/images/testimonials/profile-1.jpg"  alt="" />
+                                    <picture>
+                                        <source media="(min-width: 1000px)" srcset="assets/images/testimonials/profile-1.webp" type="image/webp">
+                                        <source media="(min-width: 599px)" srcset="assets/images/testimonials/profile-1-600.webp" type="image/webp">
+                                        <source media="(min-width: 199px)" srcset="assets/images/testimonials/profile-1-200.webp" type="image/webp">
+                                        <!-- Utilisez la source JPEG pour les navigateurs ne prenant pas en charge WebP -->
+                                        <img class="img-fluid rounded centered-image" src="assets/images/testimonials/profile-1-600.jpg" alt="" width="900" height="900" loading="lazy" decoding="async">
+                                    </picture>
                                 </div>
                                 <blockquote class="quote mt-3">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eius iure nam? Necessitatibus facilis libero, soluta unde sunt cupiditate nobis, atque maxime optio exercitationem ipsam voluptates corrupti, cumque beatae temporibus esse nihil sapiente porro minus nemo suscipit! Voluptatum deserunt necessitatibus voluptatem dolor amet quod?</p>
@@ -415,7 +487,13 @@
                             <div class="carousel-item item">
                                 <div class="source" style="margin-left: 90px;">
                                     <p class="people"><span class="name">Shyamoli Ideal Polytechnic Institute, Chittagong.</span><br /><span class="title"> Muradnagar, Chittagong.</span></p>
-                                    <img class="img-fluid rounded" src="assets/images/testimonials/profile-2.jpg"  alt="" />
+                                    <picture style="text-align: center;">
+                                        <source media="(min-width: 1000px)" srcset="assets/images/testimonials/profile-2.webp" type="image/webp">
+                                        <source media="(min-width: 599px)" srcset="assets/images/testimonials/profile-2-600.webp" type="image/webp">
+                                        <source media="(min-width: 199px)" srcset="assets/images/testimonials/profile-2-200.webp" type="image/webp">
+                                        <!-- Utilisez la source JPEG pour les navigateurs ne prenant pas en charge WebP -->
+                                        <img class="img-fluid rounded centered-image" src="assets/images/testimonials/profile-2-600.jpg" alt="" width="900" height="900"  loading="lazy" decoding="async">
+                                    </picture>
                                 </div>
                                 <blockquote class="quote mt-3">
                                     <p>
@@ -425,7 +503,12 @@
                             <div class="carousel-item item">
                                 <div class="source" style="margin-left: 90px;">
                                     <p class="people"><span class="name">Shyamoli Ideal Polytechnic Institute</span><br /><span class="title">Rangpur.</span></p>
-                                    <img class="img-fluid rounded" src="assets/images/testimonials/profile-3.jpg"  alt="" />
+                                    <picture>
+                                        <source media="(min-width: 1000px)" srcset="assets/images/testimonials/profile-3.webp" type="image/webp">
+                                        <source media="(min-width: 599px)" srcset="assets/images/testimonials/profile-3-600.webp" type="image/webp">
+                                        <source media="(min-width: 199px)" srcset="assets/images/testimonials/profile-3-200.webp" type="image/webp">
+                                        <img class="img-fluid rounded centered-image" src="assets/images/testimonials/profile-3-600.jpg" alt="" width="900" height="900" loading="lazy" decoding="async">
+                                    </picture>
                                 </div>
                                 <blockquote class="quote mt-3">
                                     <p>
@@ -436,7 +519,12 @@
                             <div class="carousel-item item">
                                 <div class="source" style="margin-left: 90px;">
                                     <p class="people"><span class="name">Shyamoli Ideal Polytechnic Institute</span><br /><span class="title">Mohammadpur, Dhaka.</span></p>
-                                    <img class="img-fluid rounded" src="assets/images/testimonials/profile-4.jpg"  alt="" />
+                                    <picture>
+                                        <source media="(min-width: 1000px)" srcset="assets/images/testimonials/profile-4.webp" type="image/webp">
+                                        <source media="(min-width: 599px)" srcset="assets/images/testimonials/profile-4-600.webp" type="image/webp">
+                                        <source media="(min-width: 199px)" srcset="assets/images/testimonials/profile-4-200.webp" type="image/webp">
+                                        <img class="img-fluid rounded centered-image" src="assets/images/testimonials/profile-4-600.jpg" alt="" width="900" height="900" loading="lazy" decoding="async">
+                                    </picture>
                                 </div>
                                 <blockquote class="quote mt-3">
                                     <p>

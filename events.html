@@ -44,7 +44,15 @@
             <div class="header-main container">
 	            <div class="row">
 	                <h1 class="logo col-md-4 col-12">
-	                    <a href="index.html"><img id="logo" src="assets/images/logo.png" alt="Logo"></a>
+	                    <a href="index.html">
+                            <picture>
+                                <source media="(min-width: 900px)" srcset="assets/images/logo.webp" type="image/webp">
+                                <source media="(min-width: 200px)" srcset="assets/images/logo-200.webp" type="image/webp">
+                                <source media="(min-width: 100px)" srcset="assets/images/logo-100.webp" type="image/webp">
+                                <source media="(min-width: 50px)" srcset="assets/images/logo-50.webp" type="image/webp">
+                                <img id="logo" src="assets/images/logo-100.jpg" alt="Logo" width="200" height="100" loading="lazy">
+                            </picture>
+                        </a>
 	                </h1>           
 	                <div class="info col-md-8 col-12">
 	                    <ul class="menu-top float-right d-none d-md-block">
@@ -191,7 +199,11 @@
                                 <h3 class="title">Latest News</h3>
                                 <article class="news-item row">       
                                     <figure class="thumb col-xl-2 col-3">
-                                        <img class="rounded-pill" src="assets/images/news/news-thumb-1.jpg" alt="" >
+                                        <picture>
+                                            <source media="(min-width: 100px)" srcset="assets/images/news/news-thumb-1.webp" type="image/webp">
+                                            <source media="(min-width: 50px)" srcset="assets/images/news/news-thumb-1-50.webp" type="image/webp">
+                                            <img class="rounded-pill" src="assets/images/news/news-thumb-1-50.jpg" alt="" loading="lazy" decoding="async" sizes="25vw">
+                                        </picture>
                                     </figure>
                                     <div class="details col-xl-10 col-9">
                                         <h4 class="title"><a href="news-single.html">Award giving ceremony</a></h4>
@@ -199,7 +211,11 @@
                                 </article>
                                 <article class="news-item row">       
                                     <figure class="thumb col-xl-2 col-3">
-                                        <img class="rounded-pill" src="assets/images/news/news-thumb-2.jpg" alt="" >
+                                        <picture>
+                                        <source media="(min-width: 100px)" srcset="assets/images/news/news-thumb-2.webp" type="image/webp">
+                                        <source media="(min-width: 50px)" srcset="assets/images/news/news-thumb-2-50.webp" type="image/webp">
+                                        <img class="rounded-pill" src="assets/images/news/news-thumb-2-50.jpg" alt="" loading="lazy" decoding="async" sizes="25vw">
+                                    </picture>
                                     </figure>
                                     <div class="details col-xl-10 col-9">
                                         <h4 class="title"><a href="news-single.html">Rag day 2023</a></h4>
@@ -207,7 +223,11 @@
                                 </article>
                                 <article class="news-item row">       
                                     <figure class="thumb col-xl-2 col-3">
-                                        <img class="rounded-pill" src="assets/images/news/news-thumb-3.jpg" alt="" >
+                                        <picture>
+                                            <source media="(min-width: 100px)" srcset="assets/images/news/news-thumb-3.webp" type="image/webp">
+                                            <source media="(min-width: 50px)" srcset="assets/images/news/news-thumb-3-50.webp" type="image/webp">
+                                            <img class="rounded-pill" src="assets/images/news/news-thumb-3-50.jpg" alt="" loading="lazy" decoding="async" sizes="25vw">
+                                        </picture>
                                     </figure>
                                     <div class="details col-xl-10 col-9">
                                         <h4 class="title"><a href="news-single.html">Tribute to Principal M.A Sattar</a></h4>
@@ -215,7 +235,11 @@
                                 </article>
                                 <article class="news-item row">       
                                     <figure class="thumb col-xl-2 col-3">
-                                        <img class="rounded-pill" src="assets/images/news/news-thumb-4.jpg" alt="" >
+                                        <picture>
+                                            <source media="(min-width: 100px)" srcset="assets/images/news/news-thumb-4.webp" type="image/webp">
+                                            <source media="(min-width: 50px)" srcset="assets/images/news/news-thumb-4-50.webp" type="image/webp">
+                                            <img class="rounded-pill" src="assets/images/news/news-thumb-4-50.jpg" alt="" loading="lazy" decoding="async" sizes="25vw">
+                                        </picture>
                                     </figure>
                                     <div class="details col-xl-10 col-9">
                                         <h4 class="title"><a href="news-single.html">Principal M.A Sattar Biography</a></h4>
