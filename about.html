@@ -27,14 +27,15 @@
             <div class="top-bar">
                 <div class="container">     
 	                <div class="row">  
-	                    <ul class="social-icons col-md-6 col-12 d-none d-md-block">
-                            <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i> </a></li>
-                            <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i> </a></li>
-                            <li><a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i> </a></li>
-                            <li><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i> </a></li>
-                            <li><a href="#" aria-label="Google Plus"><i class="fab fa-google-plus-g"></i>  </a></li>         
-                            <li class="row-end"><a href="#" aria-label="RSS"><i class="fas fa-rss"></i> </a></li>             
+                        <ul class="social-icons col-md-6 col-12 d-none d-md-block">
+                            <li><a href="#" aria-label="Twitter"><span class="sr-only">Suivez-nous sur Twitter</span> <i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" aria-label="Facebook"><span class="sr-only">Retrouvez-nous sur Facebook</span> <i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" aria-label="YouTube"><span class="sr-only">Abonnez-vous sur YouTube</span> <i class="fab fa-youtube"></i></a></li>
+                            <li><a href="#" aria-label="LinkedIn"><span class="sr-only">Connectez-vous sur LinkedIn</span> <i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#" aria-label="Google Plus"><span class="sr-only">Rejoignez-nous sur Google Plus</span> <i class="fab fa-google-plus-g"></i></a></li>
+                            <li class="row-end"><a href="#" aria-label="RSS"><span class="sr-only">Abonnez-vous au flux RSS</span> <i class="fas fa-rss"></i></a></li>
                         </ul>
+                        
                         
                         <!--social-icons-->
 	                    <form class="col-md-6 col-12 search-form" role="search">
@@ -200,8 +201,10 @@
             <section class="news rounded">
                 <h1 class="section-heading text-highlight fw-bold"><span class="line">Latest News</span></h1>     
                 <div class="carousel-controls">
-                    <a class="prev rounded-pill" href="#news-carousel" data-slide="prev"><i class="fas fa-caret-left"></i></a>
-                    <a class="next rounded-pill" href="#news-carousel" data-slide="next"><i class="fas fa-caret-right"></i></a>
+                        <a class="prev rounded-pill" href="#campus-carousel" data-slide="prev" aria-label="Précédent"><span class="visually-hidden">Image précédente</span><i class="fas fa-caret-left"></i></a>
+                        <a class="next rounded-pill" href="#campus-carousel" data-slide="next" aria-label="Suivant"><span class="visually-hidden">Image suivante</span><i class="fas fa-caret-right"></i></a>
+                    </div>
+                    
                 </div>
                 <!--carousel-controls--> 
                 <div class="section-content clearfix">
@@ -554,11 +557,12 @@
                     <div class="footer-col-inner">
                         <h3>About</h3>
                         <ul>
-                            <li><a href="about.html"><i class="fas fa-caret-right"></i>About us</a></li>
-                            <li><a href="contact.html"><i class="fas fa-caret-right"></i>Contact us</a></li>
-                            <li><a href="privacy.html"><i class="fas fa-caret-right"></i>Privacy policy</a></li>
-                            <li><a href="terms-and-conditions.html"><i class="fas fa-caret-right"></i>Terms & Conditions</a></li>
-                        </ul>
+                            <li><a href="about.html" style="color: #ffffff; background-color: #007bff;"> <i class="fas fa-caret-right"></i>About us</a></li>
+                            <li><a href="contact.html" style="color: #ffffff; background-color: #007bff;"> <i class="fas fa-caret-right"></i>Contact us</a></li>
+                            <li><a href="privacy.html" style="color: #ffffff; background-color: #007bff;"> <i class="fas fa-caret-right"></i>Privacy policy</a></li>
+                            <li><a href="terms-and-conditions.html" style="color: #ffffff; background-color: #007bff;"> <i class="fas fa-caret-right"></i>Terms & Conditions</a></li>
+                          </ul>
+                          
                     </div>
                 </div>
                 <div class="footer-col col-lg-6 col-md-8 col-12 newsletter">
@@ -569,7 +573,8 @@
                             <div class="form-group">
                                 <input type="email" class="form-control rounded-pill" placeholder="Enter your email" />
                             </div>
-                            <input class="btn btn-theme btn-subscribe rounded" type="submit" value="Subscribe">
+                            <button type="submit" class="btn btn-theme rounded-lg" style="color: #ffffff; background-color: #28a745;">Search</button>
+
                         </form>
                     </div>
                 </div> 
